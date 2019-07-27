@@ -1,0 +1,25 @@
+Subnetmask: / 26 => 32-26=6 => Streep zetten voor de laatste 6 bits in het IP-adres.
+
+IP-adres: 	192.168.3.0 => 11000000.10101000.00000011.00/000000
+
+			Allemaal nullen achter de streep = network address
+			Conclusie: GEEN geldig IP-adres
+
+______________________________________________________________________________________________________________________________________
+
+
+Subnetmask:	255.255.255.248 => 11111111.11111111.11111111.11111000 => 3 bits op nul => Streep voor de laatste 3 bits in het IP-adres.
+
+IP-adres:	172.17.17.184 => 10101100.00010001.00010001.10111/000
+
+			Allemaal nullen achter de streep => network address
+			Conclusie: GEEN geldig IP-adres
+
+______________________________________________________________________________________________________________________________________
+
+Subnetmask:	/22 => 32-22=10 => Streep zetten voor de laatste 10 bits in het IP-adres.
+
+IP-adres:	12.12.12.255 => 00001100.00001100.000011/00.11111111
+
+			Niet enkel nullen of eentjes achter de streep!
+			Conclusie:	GELDIG IP-adres.
